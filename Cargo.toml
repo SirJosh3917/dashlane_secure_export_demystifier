@@ -1,0 +1,15 @@
+[package]
+name = "dashlane_secure_export_demystifier"
+version = "0.1.0"
+authors = ["sirjosh"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2"
+base64 = "0.10.1"
+ring = "0.16.9"
+openssl = "0.10.24"
+rust-crypto = "^0.2"
+inflate = "0.4.5"
